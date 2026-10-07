@@ -12,7 +12,7 @@
 
 - 厦门大学计算机科学与技术专业本科生，方向：**AI Agent / 大模型应用**（上下文工程、工具调用、多智能体、RAG）
 - 长期在 AI Agent 开源生态里学习和贡献代码：给 **claude-code-router**（37k+ ⭐）等项目提交过已合并的修复，同时精读主流 Agent 框架源码（见下方书单）
-- 正在实现自己的终端 Coding Agent：[**MyCode**](https://github.com/fszcd/MyCode)（开发中）
+- 正在实现自己的终端 Coding Agent **MyCode**，以及 RAG 问答、Spring Boot 业务系统等实践项目（私有仓库，可当面演示）
 
 ## 🔧 Open Source Contributions
 
@@ -31,30 +31,6 @@
 > Repositories 里的 fork 是我的「源码书单」：通过读主流框架的实现来理解 Agent 的上下文管理、工具调用与多智能体编排。
 
 ![dify](https://img.shields.io/badge/dify-workflow%20%2B%20RAG-1C64F2) ![camel](https://img.shields.io/badge/camel-multi--agent-88C0D0) ![smolagents](https://img.shields.io/badge/smolagents-code%20agent-FFD21E) ![pydantic-ai](https://img.shields.io/badge/pydantic--ai-typed%20agents-E92063) ![agentscope](https://img.shields.io/badge/agentscope-multi--agent-88C0D0) ![DB-GPT](https://img.shields.io/badge/DB--GPT-AI%20%2B%20data-1C64F2) ![litellm](https://img.shields.io/badge/litellm-LLM%20gateway-88C0D0) ![fastmcp](https://img.shields.io/badge/fastmcp-MCP%20server-1C64F2)
-
-## 🛠 Projects
-
-### [MyCode](https://github.com/fszcd/MyCode) — 终端 AI 编程助手（开发中）
-
-> 受 Claude Code 等终端编程产品启发的学习实践项目：基于 ReAct 与 Plan Mode 双模式驱动 LLM 自主完成编程任务，采用「引擎 - 工具 - 交互 - 记忆 - 安全」五层结构。
-
-- 🧠 上下文压缩：两层渐进式压缩，自动对齐 Function Calling 调用配对约束，支持长时间连续会话
-- 💾 跨会话记忆：用户偏好 / 纠正反馈 / 项目知识 / 参考信息四类记忆持久化（JSONL），新会话自动继承项目上下文
-- 🤖 多 Agent 协作：复杂任务拆分并行，基于 Git Worktree 文件级隔离；Coordinator 只负责拆分与汇总
-- 🔌 MCP 工具按需加载 schema，百级工具场景下工具描述 Token 占用减少 85%；统一 Anthropic / OpenAI 双流式协议
-
-<!-- TODO：仓库建好后放架构图 + 终端演示 GIF，删掉本行
-![architecture](docs/architecture.png)
-![demo](docs/demo.gif)
--->
-
-### RAG 知识问答系统（仓库整理中）
-
-基于 LangChain 的检索增强问答实践：文档解析 → 分块（512 token / 50 重叠）→ 向量化（text-embedding-v4）→ 语义检索（ChromaDB）→ 生成，Top-K 检索召回率 92%；集成 ReAct 智能体（6 个工具），工具调用准确率 >90%。
-
-### 校园外卖系统（基于开源课程架构二次开发）
-
-Spring Boot 前后端分离系统：Redis 缓存优化（接口平均响应 120ms → 15ms）、JWT 双端认证、六态订单状态机、微信支付集成、WebSocket 实时推送。
 
 ## 📮 Contact
 
