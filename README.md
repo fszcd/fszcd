@@ -11,7 +11,7 @@
 ## 🧭 About
 
 - 厦门大学计算机科学与技术专业本科生，方向：**AI Agent / 大模型应用**（上下文工程、工具调用、多智能体、RAG）
-- 长期在 AI Agent 开源生态里学习和贡献代码：累计发起 40 个 PR、17 个已合并（含 **OpenAI / 字节跳动 / 阿里巴巴 / Dify** 等官方仓库），同时精读主流 Agent 框架源码（见下方书单）
+- 长期在 AI Agent 开源生态里学习和贡献代码：**17 个 PR 已被合并**（含 **OpenAI / 字节跳动 / 阿里巴巴 / Dify** 等官方仓库），同时精读主流 Agent 框架源码（见下方书单）
 
 ## 🔧 Open Source Contributions
 
@@ -29,7 +29,6 @@
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 32k | 3 | MCP 工具描述测试从 `__doc__` 推导；非 UTF-8 环境存储修复；Windows 跳过 POSIX 依赖测试 |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 29k | 1 | 修复 MultiProvider 子 Provider 失败后未关闭 |
 
-> 另有 23 个发起后未合并的修复（litellm、pydantic-ai、smolagents、MCP TypeScript SDK 等），完整记录见 [全部 PR 列表](https://github.com/pulls?q=author%3Afszcd+is%3Apr)。
 
 ## 📚 Reading List（正在精读的 Agent 框架源码）
 
