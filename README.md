@@ -12,7 +12,6 @@
 
 - 厦门大学计算机科学与技术专业本科生，方向：**AI Agent / 大模型应用**（上下文工程、工具调用、多智能体、RAG）
 - 长期在 AI Agent 开源生态里学习和贡献代码：给 **claude-code-router**（37k+ ⭐）等项目提交过已合并的修复，同时精读主流 Agent 框架源码（见下方书单）
-- 正在实现自己的终端 Coding Agent **MyCode**，以及 RAG 问答、Spring Boot 业务系统等实践项目（私有仓库，可当面演示）
 
 ## 🔧 Open Source Contributions
 
