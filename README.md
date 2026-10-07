@@ -12,7 +12,7 @@
 
 - 厦门大学计算机科学与技术专业本科生，方向：**AI Agent / 大模型应用**（上下文工程、工具调用、多智能体、RAG）
 - 长期在 AI Agent 开源生态里学习和贡献代码：给 **claude-code-router**（37k+ ⭐）等项目提交过已合并的修复，同时精读主流 Agent 框架源码（见下方书单）
-- 正在实现自己的终端 Coding Agent：[**MewCode**](https://github.com/fszcd/MewCode)（开发中）
+- 正在实现自己的终端 Coding Agent：[**MyCode**](https://github.com/fszcd/MyCode)（开发中）
 
 ## 🔧 Open Source Contributions
 
@@ -34,7 +34,7 @@
 
 ## 🛠 Projects
 
-### [MewCode](https://github.com/fszcd/MewCode) — 终端 AI 编程助手（开发中）
+### [MyCode](https://github.com/fszcd/MyCode) — 终端 AI 编程助手（开发中）
 
 > 受 Claude Code 等终端编程产品启发的学习实践项目：基于 ReAct 与 Plan Mode 双模式驱动 LLM 自主完成编程任务，采用「引擎 - 工具 - 交互 - 记忆 - 安全」五层结构。
 
